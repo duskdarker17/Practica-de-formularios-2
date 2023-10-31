@@ -6,13 +6,14 @@
     <title>Formularios</title>
   </head>
   <body>
+    <h1>Formularios</h1>
     <form>
       <label for="name">Nombre</label>
-      <input type="name" name="Nombre" id="Nombre" />
+      <input type="name" id="Nombre" />
       <br />
       <br />
       <label for="password">Contraseña</label>
-      <input type="password" name="contrasena" id="Contraseña" />
+      <input type="password" id="Contraseña" />
       <ul>
         <li>Debe tener números</li>
         <li>Al menos una mayúscula</li>
@@ -21,21 +22,16 @@
       <br />
     </form>
     <form>
-      <p>Sexo:</p>
-      <label for="Radio"></label>
+      <label for="Radio"> <p>Sexo</p></label>
       <input type="radio" name="Sexo" id="Sexo" />
       <span>Masculino</span>
       <input type="radio" id="Sexo" name="Sexo" />
       <span>Femenino</span>
       <br />
-      <input
-        type="checkbox"
-        name="Acepto los términos y condiciones"
-        id="Acepto los términos y condiciones"
-      />
-      <label for="checkbox">Acepto los términos y condiciones</label>
+      <input type="checkbox" id="aceptar" />
+      <label for="checkbox">aceptar</label>
       <br />
-      <button>guardar</button> <button type="reset">limpiar</button>
+      <button>Guardar</button> <button type="reset">limpiar</button>
     </form>
   </body>
 </html>
